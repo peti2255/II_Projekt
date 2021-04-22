@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/Egyetem/II_Projekt/main.c" "D:/Egyetem/II_Projekt/cmake-build-debug/CMakeFiles/II_Projekt.dir/main.c.obj"
+  "C:/Users/Dell/Desktop/EGYETEM/II_Projekt/Track.c" "C:/Users/Dell/Desktop/EGYETEM/II_Projekt/cmake-build-debug/CMakeFiles/II_Projekt.dir/Track.c.obj"
+  "C:/Users/Dell/Desktop/EGYETEM/II_Projekt/company.c" "C:/Users/Dell/Desktop/EGYETEM/II_Projekt/cmake-build-debug/CMakeFiles/II_Projekt.dir/company.c.obj"
+  "C:/Users/Dell/Desktop/EGYETEM/II_Projekt/main.c" "C:/Users/Dell/Desktop/EGYETEM/II_Projekt/cmake-build-debug/CMakeFiles/II_Projekt.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -76,6 +76,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Dell/Desktop/EGYETEM/II_Projekt/Track.c">
+			<Option target="II_Projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/Dell/Desktop/EGYETEM/II_Projekt/Track.h">
+			<Option target="II_Projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/Dell/Desktop/EGYETEM/II_Projekt/company.c">
+			<Option target="II_Projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/Dell/Desktop/EGYETEM/II_Projekt/company.h">
+			<Option target="II_Projekt"/>
+		</Unit>
 		<Unit filename="C:/Users/Dell/Desktop/EGYETEM/II_Projekt/main.c">
 			<Option target="II_Projekt"/>
 		</Unit>

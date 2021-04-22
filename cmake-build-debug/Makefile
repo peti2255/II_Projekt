@@ -142,6 +142,60 @@ II_Projekt/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\II_Projekt.dir\build.make CMakeFiles/II_Projekt.dir/build
 .PHONY : II_Projekt/fast
 
+Track.obj: Track.c.obj
+
+.PHONY : Track.obj
+
+# target to build an object file
+Track.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\II_Projekt.dir\build.make CMakeFiles/II_Projekt.dir/Track.c.obj
+.PHONY : Track.c.obj
+
+Track.i: Track.c.i
+
+.PHONY : Track.i
+
+# target to preprocess a source file
+Track.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\II_Projekt.dir\build.make CMakeFiles/II_Projekt.dir/Track.c.i
+.PHONY : Track.c.i
+
+Track.s: Track.c.s
+
+.PHONY : Track.s
+
+# target to generate assembly for a file
+Track.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\II_Projekt.dir\build.make CMakeFiles/II_Projekt.dir/Track.c.s
+.PHONY : Track.c.s
+
+company.obj: company.c.obj
+
+.PHONY : company.obj
+
+# target to build an object file
+company.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\II_Projekt.dir\build.make CMakeFiles/II_Projekt.dir/company.c.obj
+.PHONY : company.c.obj
+
+company.i: company.c.i
+
+.PHONY : company.i
+
+# target to preprocess a source file
+company.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\II_Projekt.dir\build.make CMakeFiles/II_Projekt.dir/company.c.i
+.PHONY : company.c.i
+
+company.s: company.c.s
+
+.PHONY : company.s
+
+# target to generate assembly for a file
+company.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\II_Projekt.dir\build.make CMakeFiles/II_Projekt.dir/company.c.s
+.PHONY : company.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -178,6 +232,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... II_Projekt
+	@echo ... Track.obj
+	@echo ... Track.i
+	@echo ... Track.s
+	@echo ... company.obj
+	@echo ... company.i
+	@echo ... company.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
