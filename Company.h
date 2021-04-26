@@ -4,14 +4,22 @@
 
 #ifndef MAIN_C_COMPANY_H
 #define MAIN_C_COMPANY_H
-typedef struct Company{
+
+#include "Track.h"
+#include "Root.h"
+
+typedef struct {
+   struct root root;
     char* name;
     char* location;
     int postcode;
     int maxtrack;
     int Numberofworker;
+    char* region;
 }Company;
 Company* create();
-void destroy(Company* company);
+void *readCompanyFromFile(Company *company,const char *file);
+//void destroy(Company* company);
 void print(Company* company);
+void postCodeGenerator(Company* company);
 #endif //MAIN_C_COMPANY_H

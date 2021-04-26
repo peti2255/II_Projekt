@@ -62,10 +62,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Dell\Desktop\EGYETEM\II_Projekt
+CMAKE_SOURCE_DIR = D:\Egyetem\II_Projekt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Dell\Desktop\EGYETEM\II_Projekt\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Egyetem\II_Projekt\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/II_Projekt.dir/depend.make
@@ -78,60 +78,75 @@ include CMakeFiles/II_Projekt.dir/flags.make
 
 CMakeFiles/II_Projekt.dir/main.c.obj: CMakeFiles/II_Projekt.dir/flags.make
 CMakeFiles/II_Projekt.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Dell\Desktop\EGYETEM\II_Projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/II_Projekt.dir/main.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\II_Projekt.dir\main.c.obj   -c C:\Users\Dell\Desktop\EGYETEM\II_Projekt\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Egyetem\II_Projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/II_Projekt.dir/main.c.obj"
+	C:\OJI\Codeblocks\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\II_Projekt.dir\main.c.obj   -c D:\Egyetem\II_Projekt\main.c
 
 CMakeFiles/II_Projekt.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/II_Projekt.dir/main.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Dell\Desktop\EGYETEM\II_Projekt\main.c > CMakeFiles\II_Projekt.dir\main.c.i
+	C:\OJI\Codeblocks\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Egyetem\II_Projekt\main.c > CMakeFiles\II_Projekt.dir\main.c.i
 
 CMakeFiles/II_Projekt.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/II_Projekt.dir/main.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Dell\Desktop\EGYETEM\II_Projekt\main.c -o CMakeFiles\II_Projekt.dir\main.c.s
+	C:\OJI\Codeblocks\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Egyetem\II_Projekt\main.c -o CMakeFiles\II_Projekt.dir\main.c.s
 
-CMakeFiles/II_Projekt.dir/company.c.obj: CMakeFiles/II_Projekt.dir/flags.make
-CMakeFiles/II_Projekt.dir/company.c.obj: ../company.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Dell\Desktop\EGYETEM\II_Projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/II_Projekt.dir/company.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\II_Projekt.dir\company.c.obj   -c C:\Users\Dell\Desktop\EGYETEM\II_Projekt\company.c
+CMakeFiles/II_Projekt.dir/Company.c.obj: CMakeFiles/II_Projekt.dir/flags.make
+CMakeFiles/II_Projekt.dir/Company.c.obj: ../Company.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Egyetem\II_Projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/II_Projekt.dir/Company.c.obj"
+	C:\OJI\Codeblocks\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\II_Projekt.dir\Company.c.obj   -c D:\Egyetem\II_Projekt\Company.c
 
-CMakeFiles/II_Projekt.dir/company.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/II_Projekt.dir/company.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Dell\Desktop\EGYETEM\II_Projekt\company.c > CMakeFiles\II_Projekt.dir\company.c.i
+CMakeFiles/II_Projekt.dir/Company.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/II_Projekt.dir/Company.c.i"
+	C:\OJI\Codeblocks\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Egyetem\II_Projekt\Company.c > CMakeFiles\II_Projekt.dir\Company.c.i
 
-CMakeFiles/II_Projekt.dir/company.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/II_Projekt.dir/company.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Dell\Desktop\EGYETEM\II_Projekt\company.c -o CMakeFiles\II_Projekt.dir\company.c.s
+CMakeFiles/II_Projekt.dir/Company.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/II_Projekt.dir/Company.c.s"
+	C:\OJI\Codeblocks\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Egyetem\II_Projekt\Company.c -o CMakeFiles\II_Projekt.dir\Company.c.s
 
 CMakeFiles/II_Projekt.dir/Track.c.obj: CMakeFiles/II_Projekt.dir/flags.make
 CMakeFiles/II_Projekt.dir/Track.c.obj: ../Track.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Dell\Desktop\EGYETEM\II_Projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/II_Projekt.dir/Track.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\II_Projekt.dir\Track.c.obj   -c C:\Users\Dell\Desktop\EGYETEM\II_Projekt\Track.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Egyetem\II_Projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/II_Projekt.dir/Track.c.obj"
+	C:\OJI\Codeblocks\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\II_Projekt.dir\Track.c.obj   -c D:\Egyetem\II_Projekt\Track.c
 
 CMakeFiles/II_Projekt.dir/Track.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/II_Projekt.dir/Track.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Dell\Desktop\EGYETEM\II_Projekt\Track.c > CMakeFiles\II_Projekt.dir\Track.c.i
+	C:\OJI\Codeblocks\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Egyetem\II_Projekt\Track.c > CMakeFiles\II_Projekt.dir\Track.c.i
 
 CMakeFiles/II_Projekt.dir/Track.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/II_Projekt.dir/Track.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Dell\Desktop\EGYETEM\II_Projekt\Track.c -o CMakeFiles\II_Projekt.dir\Track.c.s
+	C:\OJI\Codeblocks\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Egyetem\II_Projekt\Track.c -o CMakeFiles\II_Projekt.dir\Track.c.s
+
+CMakeFiles/II_Projekt.dir/Root.c.obj: CMakeFiles/II_Projekt.dir/flags.make
+CMakeFiles/II_Projekt.dir/Root.c.obj: ../Root.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Egyetem\II_Projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/II_Projekt.dir/Root.c.obj"
+	C:\OJI\Codeblocks\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\II_Projekt.dir\Root.c.obj   -c D:\Egyetem\II_Projekt\Root.c
+
+CMakeFiles/II_Projekt.dir/Root.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/II_Projekt.dir/Root.c.i"
+	C:\OJI\Codeblocks\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Egyetem\II_Projekt\Root.c > CMakeFiles\II_Projekt.dir\Root.c.i
+
+CMakeFiles/II_Projekt.dir/Root.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/II_Projekt.dir/Root.c.s"
+	C:\OJI\Codeblocks\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Egyetem\II_Projekt\Root.c -o CMakeFiles\II_Projekt.dir\Root.c.s
 
 # Object files for target II_Projekt
 II_Projekt_OBJECTS = \
 "CMakeFiles/II_Projekt.dir/main.c.obj" \
-"CMakeFiles/II_Projekt.dir/company.c.obj" \
-"CMakeFiles/II_Projekt.dir/Track.c.obj"
+"CMakeFiles/II_Projekt.dir/Company.c.obj" \
+"CMakeFiles/II_Projekt.dir/Track.c.obj" \
+"CMakeFiles/II_Projekt.dir/Root.c.obj"
 
 # External object files for target II_Projekt
 II_Projekt_EXTERNAL_OBJECTS =
 
 II_Projekt.exe: CMakeFiles/II_Projekt.dir/main.c.obj
-II_Projekt.exe: CMakeFiles/II_Projekt.dir/company.c.obj
+II_Projekt.exe: CMakeFiles/II_Projekt.dir/Company.c.obj
 II_Projekt.exe: CMakeFiles/II_Projekt.dir/Track.c.obj
+II_Projekt.exe: CMakeFiles/II_Projekt.dir/Root.c.obj
 II_Projekt.exe: CMakeFiles/II_Projekt.dir/build.make
 II_Projekt.exe: CMakeFiles/II_Projekt.dir/linklibs.rsp
 II_Projekt.exe: CMakeFiles/II_Projekt.dir/objects1.rsp
 II_Projekt.exe: CMakeFiles/II_Projekt.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Dell\Desktop\EGYETEM\II_Projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable II_Projekt.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Egyetem\II_Projekt\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable II_Projekt.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\II_Projekt.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -144,6 +159,6 @@ CMakeFiles/II_Projekt.dir/clean:
 .PHONY : CMakeFiles/II_Projekt.dir/clean
 
 CMakeFiles/II_Projekt.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Dell\Desktop\EGYETEM\II_Projekt C:\Users\Dell\Desktop\EGYETEM\II_Projekt C:\Users\Dell\Desktop\EGYETEM\II_Projekt\cmake-build-debug C:\Users\Dell\Desktop\EGYETEM\II_Projekt\cmake-build-debug C:\Users\Dell\Desktop\EGYETEM\II_Projekt\cmake-build-debug\CMakeFiles\II_Projekt.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Egyetem\II_Projekt D:\Egyetem\II_Projekt D:\Egyetem\II_Projekt\cmake-build-debug D:\Egyetem\II_Projekt\cmake-build-debug D:\Egyetem\II_Projekt\cmake-build-debug\CMakeFiles\II_Projekt.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/II_Projekt.dir/depend
 

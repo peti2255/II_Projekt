@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/II_Projekt.dir/Company.c.obj"
+  "CMakeFiles/II_Projekt.dir/Root.c.obj"
   "CMakeFiles/II_Projekt.dir/Track.c.obj"
-  "CMakeFiles/II_Projekt.dir/company.c.obj"
   "CMakeFiles/II_Projekt.dir/main.c.obj"
   "II_Projekt.exe"
   "II_Projekt.exe.manifest"

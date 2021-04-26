@@ -1,3 +1,3 @@
-C:/Users/Dell/Desktop/EGYETEM/II_Projekt/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/Dell/Desktop/EGYETEM/II_Projekt/cmake-build-debug/CMakeFiles/II_Projekt.dir
-C:/Users/Dell/Desktop/EGYETEM/II_Projekt/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Egyetem/II_Projekt/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Egyetem/II_Projekt/cmake-build-debug/CMakeFiles/II_Projekt.dir
+D:/Egyetem/II_Projekt/cmake-build-debug/CMakeFiles/edit_cache.dir

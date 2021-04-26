@@ -67,10 +67,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Dell\Desktop\EGYETEM\II_Projekt
+CMAKE_SOURCE_DIR = D:\Egyetem\II_Projekt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Dell\Desktop\EGYETEM\II_Projekt\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Egyetem\II_Projekt\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Dell\Desktop\EGYETEM\II_Projekt\cmake-build-debug\CMakeFiles C:\Users\Dell\Desktop\EGYETEM\II_Projekt\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Egyetem\II_Projekt\cmake-build-debug\CMakeFiles D:\Egyetem\II_Projekt\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Dell\Desktop\EGYETEM\II_Projekt\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Egyetem\II_Projekt\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -142,6 +142,60 @@ II_Projekt/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\II_Projekt.dir\build.make CMakeFiles/II_Projekt.dir/build
 .PHONY : II_Projekt/fast
 
+Company.obj: Company.c.obj
+
+.PHONY : Company.obj
+
+# target to build an object file
+Company.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\II_Projekt.dir\build.make CMakeFiles/II_Projekt.dir/Company.c.obj
+.PHONY : Company.c.obj
+
+Company.i: Company.c.i
+
+.PHONY : Company.i
+
+# target to preprocess a source file
+Company.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\II_Projekt.dir\build.make CMakeFiles/II_Projekt.dir/Company.c.i
+.PHONY : Company.c.i
+
+Company.s: Company.c.s
+
+.PHONY : Company.s
+
+# target to generate assembly for a file
+Company.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\II_Projekt.dir\build.make CMakeFiles/II_Projekt.dir/Company.c.s
+.PHONY : Company.c.s
+
+Root.obj: Root.c.obj
+
+.PHONY : Root.obj
+
+# target to build an object file
+Root.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\II_Projekt.dir\build.make CMakeFiles/II_Projekt.dir/Root.c.obj
+.PHONY : Root.c.obj
+
+Root.i: Root.c.i
+
+.PHONY : Root.i
+
+# target to preprocess a source file
+Root.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\II_Projekt.dir\build.make CMakeFiles/II_Projekt.dir/Root.c.i
+.PHONY : Root.c.i
+
+Root.s: Root.c.s
+
+.PHONY : Root.s
+
+# target to generate assembly for a file
+Root.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\II_Projekt.dir\build.make CMakeFiles/II_Projekt.dir/Root.c.s
+.PHONY : Root.c.s
+
 Track.obj: Track.c.obj
 
 .PHONY : Track.obj
@@ -168,33 +222,6 @@ Track.s: Track.c.s
 Track.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\II_Projekt.dir\build.make CMakeFiles/II_Projekt.dir/Track.c.s
 .PHONY : Track.c.s
-
-company.obj: company.c.obj
-
-.PHONY : company.obj
-
-# target to build an object file
-company.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\II_Projekt.dir\build.make CMakeFiles/II_Projekt.dir/company.c.obj
-.PHONY : company.c.obj
-
-company.i: company.c.i
-
-.PHONY : company.i
-
-# target to preprocess a source file
-company.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\II_Projekt.dir\build.make CMakeFiles/II_Projekt.dir/company.c.i
-.PHONY : company.c.i
-
-company.s: company.c.s
-
-.PHONY : company.s
-
-# target to generate assembly for a file
-company.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\II_Projekt.dir\build.make CMakeFiles/II_Projekt.dir/company.c.s
-.PHONY : company.c.s
 
 main.obj: main.c.obj
 
@@ -232,12 +259,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... II_Projekt
+	@echo ... Company.obj
+	@echo ... Company.i
+	@echo ... Company.s
+	@echo ... Root.obj
+	@echo ... Root.i
+	@echo ... Root.s
 	@echo ... Track.obj
 	@echo ... Track.i
 	@echo ... Track.s
-	@echo ... company.obj
-	@echo ... company.i
-	@echo ... company.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
