@@ -3,6 +3,7 @@
 #include <time.h>
 #include <aclui.h>
 #include "Company.h"
+#include "Lancolt_lista.h"
 #include "Track.h"
 #include "Root.h"
 
@@ -11,6 +12,8 @@ int main() {
     srand(time(0));
     Company* company = create();
     readCompanyFromFile(company,"Company.txt");
+    Node* newNode = NULL;
+    newNode =  readTrack("track.txt");
     struct root* bst = NULL;
     bst = readtime("be.txt");
     int option;
@@ -18,9 +21,9 @@ int main() {
     while (repeat) {
         printf("0.Kilepes\n"
                "1.Company adatainak kiiratasa\n"
-               "2.Kamionik kiiratas\n"
-               "3.\n"
-               "4.\n"
+               "2.Idopontok\n"
+               "3.Kamionok\n"
+               "4.Ujj kamionos hozzaadas\n"
                "5.\n"
                "6.\n"
                "7.\n"
@@ -41,8 +44,19 @@ int main() {
                 inorder(bst);
                 break;
             case 3:
+                traverse(newNode);
                 break;
             case 4:
+            {
+                Track * track = creat();
+                printf("Ceg neve: ");
+                scanf("%s",track->nameCompany);
+                printf("Szalitott termek: ");
+                scanf("%s",track->product);
+                printf("Ossz suly: ");
+                scanf("%lf",&track->crowd);
+                inserte(&newNode,track,numberoftrack);
+            }
                 break;
             case 5:
                 break;

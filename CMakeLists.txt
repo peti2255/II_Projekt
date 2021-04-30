@@ -3,4 +3,4 @@ project(II_Projekt C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(II_Projekt main.c Company.c Company.h Track.c Track.h Root.c Root.h)
+add_executable(II_Projekt main.c Company.c Company.h Track.c Track.h Root.c Root.h Lancolt_lista.c Lancolt_lista.h)

@@ -41,7 +41,7 @@ root* readtime(const char *file) {
 
     }
     double a;
-    root *root1 = NULL; printf("nem megy");
+    root *root1 = NULL;
     while (fscanf(input, "%lf\n", &a) != EOF)
     {
 

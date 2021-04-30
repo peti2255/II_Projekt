@@ -80,6 +80,12 @@
 		<Unit filename="D:/Egyetem/II_Projekt/Company.h">
 			<Option target="II_Projekt"/>
 		</Unit>
+		<Unit filename="D:/Egyetem/II_Projekt/Lancolt_lista.c">
+			<Option target="II_Projekt"/>
+		</Unit>
+		<Unit filename="D:/Egyetem/II_Projekt/Lancolt_lista.h">
+			<Option target="II_Projekt"/>
+		</Unit>
 		<Unit filename="D:/Egyetem/II_Projekt/Root.c">
 			<Option target="II_Projekt"/>
 		</Unit>

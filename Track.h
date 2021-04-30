@@ -8,8 +8,8 @@ typedef struct Track{
     char* nameCompany;
     int id;
     double crowd;
-    char* firstname;
-    char* lastname;
+    char * product;
+
     int trackNum;
 }Track;
 
@@ -18,7 +18,7 @@ int numberoftrack;
 Track* creat();
 
 //void destroy(Track* track);
-Track * readTrack(const char *file);
+
 int IDgenerator(Track* track);
 void printTrack(Track* track);
 

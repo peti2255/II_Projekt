@@ -10,6 +10,7 @@
 
 typedef struct {
    struct root root;
+   struct Track track;
     char* name;
     char* location;
     int postcode;

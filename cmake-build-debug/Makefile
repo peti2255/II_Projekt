@@ -169,6 +169,33 @@ Company.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\II_Projekt.dir\build.make CMakeFiles/II_Projekt.dir/Company.c.s
 .PHONY : Company.c.s
 
+Lancolt_lista.obj: Lancolt_lista.c.obj
+
+.PHONY : Lancolt_lista.obj
+
+# target to build an object file
+Lancolt_lista.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\II_Projekt.dir\build.make CMakeFiles/II_Projekt.dir/Lancolt_lista.c.obj
+.PHONY : Lancolt_lista.c.obj
+
+Lancolt_lista.i: Lancolt_lista.c.i
+
+.PHONY : Lancolt_lista.i
+
+# target to preprocess a source file
+Lancolt_lista.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\II_Projekt.dir\build.make CMakeFiles/II_Projekt.dir/Lancolt_lista.c.i
+.PHONY : Lancolt_lista.c.i
+
+Lancolt_lista.s: Lancolt_lista.c.s
+
+.PHONY : Lancolt_lista.s
+
+# target to generate assembly for a file
+Lancolt_lista.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\II_Projekt.dir\build.make CMakeFiles/II_Projekt.dir/Lancolt_lista.c.s
+.PHONY : Lancolt_lista.c.s
+
 Root.obj: Root.c.obj
 
 .PHONY : Root.obj
@@ -262,6 +289,9 @@ help:
 	@echo ... Company.obj
 	@echo ... Company.i
 	@echo ... Company.s
+	@echo ... Lancolt_lista.obj
+	@echo ... Lancolt_lista.i
+	@echo ... Lancolt_lista.s
 	@echo ... Root.obj
 	@echo ... Root.i
 	@echo ... Root.s
