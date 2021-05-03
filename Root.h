@@ -14,10 +14,11 @@ typedef struct root
     struct root *right;
 }root;
 root *createroot(double data);
-void destroy(root ** tree);
+void destroyroot(root * tree);
 struct root * readtime(const char* file);
 root* insert(root *tree, double data);
 root* delete(root *tree,int data);
-root *find(root *tree,int data);
+root * find(root *tree,int data);
 void inorder(root *tree);
+struct root *minValueNode(struct root *pRoot);
 #endif //II_PROJEKT_ROOT_H

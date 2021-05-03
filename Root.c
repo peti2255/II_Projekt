@@ -62,4 +62,61 @@ void inorder(root *tree) {
 
 }
 
+void destroyroot(root *tree) {
+    free(tree->right);
+    free(tree->left);
+    free(tree);
+    printf("Felszabaditva");
+}
+
+root *delete(root *tree, int data) {
+    if(tree==NULL){
+        printf("Nem lehetseges a torles.\n");
+        return tree;
+    }
+    if(tree->time>data){
+        tree->left=delete(tree->left,data);
+    }
+    else if(tree->time<data){
+        tree->right=delete(tree->right,data);
+    }
+    else{
+        if(tree->left==NULL){
+            struct root* temp=tree->right;
+            free(tree);
+            return temp;
+        }
+        else if(tree->right==NULL){
+            struct root* temp=tree->left;
+            free(tree);
+            return temp;
+        }
+        struct root* temp=minValueNode(tree->right);
+        tree->time=temp->time;
+        tree->right=delete(tree->right,temp->time);
+    }
+    return tree;
+}
+struct root *minValueNode(struct root *pRoot) {
+    struct root* current = pRoot;
+    while (current && current->left != NULL)
+        current = current->left;
+    return current;
+}
+
+root *find(root *tree, int data) {
+    if (tree == NULL) {
+        return 0;
+    }
+    if (data == tree->time) {
+        return tree;
+    } else {
+        if (data < tree->time)
+            find(tree->left, data);
+        else find(tree->right, data);
+    }
+
+    return NULL;
+}
+
 

@@ -17,7 +17,7 @@ Node* createe();
 
 void inserte(Node** front, Track* data, int index);
 void traverse(Node* front);
-//void destroy(Node* front);
+void destroylista(Node* front);
 
 int* statistics(Node* front);
 

@@ -91,9 +91,9 @@ void traverse(Node* front) {
 
 }
 
-void destroy(Node* front) {
+void destroylista(Node* front) {
     if(front->next)
-        destroy((Node *) front->next);
+        destroylista((Node *) front->next);
 
     free(front);
     front = NULL;

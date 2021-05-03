@@ -17,7 +17,7 @@ int numberoftrack;
 
 Track* creat();
 
-//void destroy(Track* track);
+void destroytrack(Track* track);
 
 int IDgenerator(Track* track);
 void printTrack(Track* track);

@@ -30,12 +30,12 @@ Track *creat() {
     return track;
 }
 
-//void destroy(Track* track) {
-//    free(track->nameCompany);
-//    free(track->lastname);
-//    free(track->firstname);
-//    free(track);
-//}
+void destroytrack(Track* track) {
+    free(track->nameCompany);
+    free(track->product);
+    free(track);
+    printf("Felszabaditva");
+}
 
 
 

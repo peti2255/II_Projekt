@@ -33,12 +33,12 @@ Company *create() {
 
     return company;
 }
-//void destroy(Company* company){
-//    free(company->name);
-//    free(company->location);
-//    free(company);
-//    printf("Felszabaditva");
-//}
+void destroy(Company* company){
+    free(company->name);
+    free(company->location);
+    free(company);
+    printf("Felszabaditva");
+}
 void print(Company*company){
 
         printf("%s\n",company->name);

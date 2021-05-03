@@ -20,7 +20,7 @@ typedef struct {
 }Company;
 Company* create();
 void *readCompanyFromFile(Company *company,const char *file);
-//void destroy(Company* company);
+void destroy(Company* company);
 void print(Company* company);
 void postCodeGenerator(Company* company);
 #endif //MAIN_C_COMPANY_H
