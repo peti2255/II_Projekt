@@ -10,7 +10,6 @@ typedef struct Track{
     double crowd;
     char * product;
     double time;
-
     int trackNum;
 }Track;
 
@@ -18,7 +17,7 @@ int numberoftrack;
 
 Track* creat();
 
-//void destroy(Track* track);
+void destroy(Track* track);
 
 int IDgenerator(Track* track);
 void printTrack(Track* track);

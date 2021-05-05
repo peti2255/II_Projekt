@@ -70,25 +70,6 @@ int listLength(Node* front, int size) {
     listLength((Node *) front->next, size + 1);
 }
 
-void traverse(Node* front) {
-    if(front->next == NULL) {
-        printf("%s ", front->data->nameCompany);
-        printf("%i ", front->data->id);
-        printf("%s ", front->data->product);
-        printf("%.2lf ", front->data->crowd);
-        printf("%.2lf ", front->data->time);
-        printf("\n");
-        return;
-    }
-    printf("%s ", front->data->nameCompany);
-    printf("%i ", front->data->id);
-    printf("%s ", front->data->product);
-    printf("%.2lf ", front->data->crowd);
-    printf("%.2lf ", front->data->time);
-    printf("\n");
-    traverse((Node *) front->next);
-
-}
 
 void destroyss(Node* front) {
     if(front->next)

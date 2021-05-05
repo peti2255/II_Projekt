@@ -4,8 +4,6 @@
 #include <aclui.h>
 #include "Company.h"
 #include "Lancolt_lista.h"
-#include "Track.h"
-#include "Root.h"
 
 int main() {
 
@@ -18,19 +16,14 @@ int main() {
     bst = readtime("be.txt");
     int option;
     bool repeat = true;
-   // traversetime(newNode);
     while (repeat) {
         printf("0.Kilepes\n"
                "1.Company adatainak kiiratasa\n"
                "2.Idopontok\n"
                "3.Kamionok\n"
-               "4.Ujj kamionos hozzaadas\n"
-               "5.Erkezhete a megadott idopontba kamion\n"
-               "6.Idopont kereses \n"
-               "7.\n"
-               "8.\n");
-
-
+               "4.Uj kamionos hozzaadas\n"
+               "5.Erkezhet-e a megadott idopontba kamion\n"
+               "6.Idopont kereses \n");
         printf("Valassz opciot: ");
         scanf("%i", &option);
         switch (option) {
@@ -45,7 +38,7 @@ int main() {
                 inorder(bst);
                 break;
             case 3:
-                traverse(newNode);
+                //traverse(newNode);
                 break;
             case 4:
             {
@@ -54,7 +47,7 @@ int main() {
                 double n1;
                 printf("Ceg neve: ");
                 scanf("%s",track->nameCompany);
-                printf("Szalitott termek: ");
+                printf("Szallitott termek: ");
                 scanf("%s",track->product);
                 printf("Ossz suly: ");
                 scanf("%lf",&track->crowd);
@@ -97,16 +90,15 @@ int main() {
             }
 
                 break;
-            case 7:
-                break;
-            case 8:
-                break;
             default:
                 printf("Helytelen opcio. Probald ujra! ");
                 break;
         }
         printf("\n\n---------------------\n\n");
     }
+    destroyCompany(company);
+    destroyroot(bst);
+    destroy((Track *) newNode);
 
     return 0;
 }
