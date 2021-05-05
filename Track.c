@@ -26,16 +26,17 @@ Track *creat() {
     track->product = (char *)malloc(20 * sizeof (char));
     track->id = 0;
     track->crowd = 0.0;
+    track->time = 0.0;
 
     return track;
 }
 
-void destroytrack(Track* track) {
-    free(track->nameCompany);
-    free(track->product);
-    free(track);
-    printf("Felszabaditva");
-}
+//void destroy(Track* track) {
+//    free(track->nameCompany);
+//    free(track->lastname);
+//    free(track->firstname);
+//    free(track);
+//}
 
 
 

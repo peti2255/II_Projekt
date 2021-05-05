@@ -18,14 +18,15 @@ int main() {
     bst = readtime("be.txt");
     int option;
     bool repeat = true;
+   // traversetime(newNode);
     while (repeat) {
         printf("0.Kilepes\n"
                "1.Company adatainak kiiratasa\n"
                "2.Idopontok\n"
                "3.Kamionok\n"
                "4.Ujj kamionos hozzaadas\n"
-               "5.\n"
-               "6.\n"
+               "5.Erkezhete a megadott idopontba kamion\n"
+               "6.Idopont kereses \n"
                "7.\n"
                "8.\n");
 
@@ -59,8 +60,36 @@ int main() {
             }
                 break;
             case 5:
+            {
+                int n;
+                printf("Ido megadasa: ");
+                scanf("%i",&n);
+                //timesearcher(bst,n);
+                if(findMinforN(bst,n) <= 0)
+                {
+                    printf("Kamion erkezes megtiltva!\n");
+                }
+                else
+                {
+                    if(n-findMinforN(bst,n) < 20)
+                        printf("Kamion erkezes megtiltva!\n");
+                    printf("Kamion erkezhet \n");
+                }
+
+
+            }
                 break;
             case 6:
+            {
+                double elem;
+                printf("Ido megadasa: ");
+                scanf("%lf",&elem);
+                if(find(bst,elem) == 1)
+                printf("Letezo idopont\n");
+                else
+                    printf("Idopont nem talalhato\n ");
+            }
+
                 break;
             case 7:
                 break;
@@ -70,6 +99,7 @@ int main() {
                 printf("Helytelen opcio. Probald ujra! ");
                 break;
         }
+        printf("\n\n---------------------\n\n");
     }
 
     return 0;

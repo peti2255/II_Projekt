@@ -51,14 +51,11 @@ root* readtime(const char *file) {
     return root1;
 }
 void inorder(root *tree) {
-
-    {
         if(tree->left)
             inorder(tree->left);
         printf("%.2lf \n", tree->time);
         if(tree->right)
             inorder(tree->right);
-    }
 
 }
 
@@ -104,19 +101,31 @@ struct root *minValueNode(struct root *pRoot) {
     return current;
 }
 
-root *find(root *tree, int data) {
+int find(root *tree, double data) {
     if (tree == NULL) {
         return 0;
     }
     if (data == tree->time) {
-        return tree;
+        return 1;
     } else {
         if (data < tree->time)
             find(tree->left, data);
         else find(tree->right, data);
     }
 
-    return NULL;
+    return -1;
+}
+
+double findMinforN(root* root, int N)
+{
+    if (root->left == NULL && root->right == NULL && root->time < N)
+        return -1;
+    if ((root->time >= N && root->left == NULL) || (root->time >= N && root->left->time < N))
+        return root->time;
+    if (root->time <= N)
+        return findMinforN(root->right, N);
+    else
+        return findMinforN(root->left, N);
 }
 
 

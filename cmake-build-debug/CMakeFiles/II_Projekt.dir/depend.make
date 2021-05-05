@@ -3,6 +3,7 @@
 
 CMakeFiles/II_Projekt.dir/Company.c.obj: ../Company.c
 CMakeFiles/II_Projekt.dir/Company.c.obj: ../Company.h
+CMakeFiles/II_Projekt.dir/Company.c.obj: ../Lancolt_lista.h
 CMakeFiles/II_Projekt.dir/Company.c.obj: ../Root.h
 CMakeFiles/II_Projekt.dir/Company.c.obj: ../Track.h
 

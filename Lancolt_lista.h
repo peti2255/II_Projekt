@@ -17,11 +17,12 @@ Node* createe();
 
 void inserte(Node** front, Track* data, int index);
 void traverse(Node* front);
-void destroylista(Node* front);
+//void destroy(Node* front);
 
 int* statistics(Node* front);
 
 int getKthDigit(Node* front, int k, int currPos);
 int listLength(Node* front, int size);
 Node * readTrack(const char *file);
+void traversetime(Node* front);
 #endif //II_PROJEKT_LANCOLT_LISTA_H

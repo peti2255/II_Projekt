@@ -8,102 +8,100 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Dell/Desktop/EGYETEM/II_Projekt/cmake-build-debug"/>
+				<Option working_dir="D:/Egyetem/II_Projekt/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/EGYETEM/II_Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/EGYETEM/II_Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/EGYETEM/II_Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/EGYETEM/II_Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Egyetem/II_Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Egyetem/II_Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Egyetem/II_Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Egyetem/II_Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Dell/Desktop/EGYETEM/II_Projekt/cmake-build-debug"/>
+				<Option working_dir="D:/Egyetem/II_Projekt/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/EGYETEM/II_Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/EGYETEM/II_Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/EGYETEM/II_Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/EGYETEM/II_Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Egyetem/II_Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Egyetem/II_Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Egyetem/II_Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Egyetem/II_Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="II_Projekt">
-				<Option output="C:/Users/Dell/Desktop/EGYETEM/II_Projekt/cmake-build-debug/II_Projekt.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Dell/Desktop/EGYETEM/II_Projekt/cmake-build-debug"/>
+				<Option output="D:/Egyetem/II_Projekt/cmake-build-debug/II_Projekt.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Egyetem/II_Projekt/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+					<Add directory="C:/OJI/Codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="C:/OJI/Codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/OJI/Codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/EGYETEM/II_Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 II_Projekt"/>
-					<CompileFile command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/EGYETEM/II_Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/EGYETEM/II_Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/EGYETEM/II_Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Egyetem/II_Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 II_Projekt"/>
+					<CompileFile command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Egyetem/II_Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Egyetem/II_Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Egyetem/II_Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="II_Projekt/fast">
-				<Option output="C:/Users/Dell/Desktop/EGYETEM/II_Projekt/cmake-build-debug/II_Projekt.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Dell/Desktop/EGYETEM/II_Projekt/cmake-build-debug"/>
+				<Option output="D:/Egyetem/II_Projekt/cmake-build-debug/II_Projekt.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Egyetem/II_Projekt/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+					<Add directory="C:/OJI/Codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="C:/OJI/Codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/OJI/Codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/EGYETEM/II_Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 II_Projekt/fast"/>
-					<CompileFile command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/EGYETEM/II_Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/EGYETEM/II_Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/EGYETEM/II_Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Egyetem/II_Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 II_Projekt/fast"/>
+					<CompileFile command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Egyetem/II_Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Egyetem/II_Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Egyetem/II_Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Dell/Desktop/EGYETEM/II_Projekt/cmake-build-debug"/>
+				<Option working_dir="D:/Egyetem/II_Projekt/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/EGYETEM/II_Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/EGYETEM/II_Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/EGYETEM/II_Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Dell/Desktop/EGYETEM/II_Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Egyetem/II_Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Egyetem/II_Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Egyetem/II_Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;D:/Egyetem/II_Projekt/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Dell/Desktop/EGYETEM/II_Projekt/Company.c">
+		<Unit filename="D:/Egyetem/II_Projekt/Company.c">
 			<Option target="II_Projekt"/>
 		</Unit>
-		<Unit filename="C:/Users/Dell/Desktop/EGYETEM/II_Projekt/Company.h">
+		<Unit filename="D:/Egyetem/II_Projekt/Company.h">
 			<Option target="II_Projekt"/>
 		</Unit>
-		<Unit filename="C:/Users/Dell/Desktop/EGYETEM/II_Projekt/Lancolt_lista.c">
+		<Unit filename="D:/Egyetem/II_Projekt/Lancolt_lista.c">
 			<Option target="II_Projekt"/>
 		</Unit>
-		<Unit filename="C:/Users/Dell/Desktop/EGYETEM/II_Projekt/Lancolt_lista.h">
+		<Unit filename="D:/Egyetem/II_Projekt/Lancolt_lista.h">
 			<Option target="II_Projekt"/>
 		</Unit>
-		<Unit filename="C:/Users/Dell/Desktop/EGYETEM/II_Projekt/Root.c">
+		<Unit filename="D:/Egyetem/II_Projekt/Root.c">
 			<Option target="II_Projekt"/>
 		</Unit>
-		<Unit filename="C:/Users/Dell/Desktop/EGYETEM/II_Projekt/Root.h">
+		<Unit filename="D:/Egyetem/II_Projekt/Root.h">
 			<Option target="II_Projekt"/>
 		</Unit>
-		<Unit filename="C:/Users/Dell/Desktop/EGYETEM/II_Projekt/Track.c">
+		<Unit filename="D:/Egyetem/II_Projekt/Track.c">
 			<Option target="II_Projekt"/>
 		</Unit>
-		<Unit filename="C:/Users/Dell/Desktop/EGYETEM/II_Projekt/Track.h">
+		<Unit filename="D:/Egyetem/II_Projekt/Track.h">
 			<Option target="II_Projekt"/>
 		</Unit>
-		<Unit filename="C:/Users/Dell/Desktop/EGYETEM/II_Projekt/main.c">
+		<Unit filename="D:/Egyetem/II_Projekt/main.c">
 			<Option target="II_Projekt"/>
 		</Unit>
-		<Unit filename="C:/Users/Dell/Desktop/EGYETEM/II_Projekt/CMakeLists.txt">
+		<Unit filename="D:/Egyetem/II_Projekt/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

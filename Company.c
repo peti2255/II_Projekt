@@ -5,6 +5,7 @@
 #include <malloc.h>
 #include <stdio.h>
 #include "Company.h"
+#include "Lancolt_lista.h"
 
 Company *create() {
     Company * company=(Company*)malloc(sizeof (Company));
@@ -33,7 +34,7 @@ Company *create() {
 
     return company;
 }
-void destroy(Company* company){
+void destroyCompany(Company* company){
     free(company->name);
     free(company->location);
     free(company);

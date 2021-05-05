@@ -79,6 +79,7 @@ void traverse(Node* front) {
         printf("%i ", front->data->id);
         printf("%s ", front->data->product);
         printf("%.2lf ", front->data->crowd);
+        printf("%.2lf ", front->data->time);
         printf("\n");
         return;
     }
@@ -86,14 +87,15 @@ void traverse(Node* front) {
     printf("%i ", front->data->id);
     printf("%s ", front->data->product);
     printf("%.2lf ", front->data->crowd);
+    printf("%.2lf ", front->data->time);
     printf("\n");
     traverse((Node *) front->next);
 
 }
 
-void destroylista(Node* front) {
+void destroy(Node* front) {
     if(front->next)
-        destroylista((Node *) front->next);
+        destroy((Node *) front->next);
 
     free(front);
     front = NULL;
@@ -117,6 +119,7 @@ Node * readTrack(const char *file) {
         fscanf(input, "%[^\n]\n", track->nameCompany);
         fscanf(input, "%lf\n", &track->crowd);
         fscanf(input, "%[^\n]\n", track->product);
+        fscanf(input, "%lf\n", &track->time);
         inserte(&newNode,track,i);
 
     }
@@ -124,4 +127,5 @@ Node * readTrack(const char *file) {
     fclose(input);
     return newNode;
 }
+
 

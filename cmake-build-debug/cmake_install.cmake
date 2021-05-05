@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Dell/Desktop/EGYETEM/II_Projekt
+# Install script for directory: D:/Egyetem/II_Projekt
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Dell/Desktop/EGYETEM/II_Projekt/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Egyetem/II_Projekt/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
