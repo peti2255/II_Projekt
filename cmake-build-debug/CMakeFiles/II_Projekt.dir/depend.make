@@ -9,6 +9,7 @@ CMakeFiles/II_Projekt.dir/Company.c.obj: ../Track.h
 
 CMakeFiles/II_Projekt.dir/Lancolt_lista.c.obj: ../Lancolt_lista.c
 CMakeFiles/II_Projekt.dir/Lancolt_lista.c.obj: ../Lancolt_lista.h
+CMakeFiles/II_Projekt.dir/Lancolt_lista.c.obj: ../Root.h
 CMakeFiles/II_Projekt.dir/Lancolt_lista.c.obj: ../Track.h
 
 CMakeFiles/II_Projekt.dir/Root.c.obj: ../Root.c

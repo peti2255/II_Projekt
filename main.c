@@ -50,13 +50,19 @@ int main() {
             case 4:
             {
                 Track * track = creat();
+                struct root* bst1 = NULL;
+                double n1;
                 printf("Ceg neve: ");
                 scanf("%s",track->nameCompany);
                 printf("Szalitott termek: ");
                 scanf("%s",track->product);
                 printf("Ossz suly: ");
                 scanf("%lf",&track->crowd);
+                printf("Idopont: ");
+                scanf("%lf",&n1);
+                track->time = n1;
                 inserte(&newNode,track,numberoftrack);
+                insert(bst,n1);
             }
                 break;
             case 5:

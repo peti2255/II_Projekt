@@ -5,9 +5,6 @@
 #include "Lancolt_lista.h"
 #include <stdlib.h>
 #include <stdio.h>
-#include <limits.h>
-#include <stdbool.h>
-#include "string.h"
 
 Node* createe() {
     Node* newNode = (Node*)calloc(1, sizeof(Node));
@@ -59,7 +56,7 @@ int* statistics(Node* front) {
 
 int getKthDigit(Node* front, int k, int currPos) {
     if(k == currPos) {
-        return front->data;
+        return (int) front->data;
     }
 
     return getKthDigit((Node *) front->next, k, currPos + 1);
@@ -93,9 +90,9 @@ void traverse(Node* front) {
 
 }
 
-void destroy(Node* front) {
+void destroyss(Node* front) {
     if(front->next)
-        destroy((Node *) front->next);
+        destroyss((Node *) front->next);
 
     free(front);
     front = NULL;
