@@ -23,7 +23,8 @@ int main() {
                "3.Kamionok\n"
                "4.Uj kamionos hozzaadas\n"
                "5.Erkezhet-e a megadott idopontba kamion\n"
-               "6.Idopont kereses \n");
+               "6.Idopont kereses \n"
+               "7.Idopont torlese\n");
         printf("Valassz opciot: ");
         scanf("%i", &option);
         switch (option) {
@@ -84,15 +85,23 @@ int main() {
             }
 
                 break;
+            case 7:{
+                double d;
+                printf("Adj egy idopontot: ");
+                scanf("%lf",&d);
+                delete(bst,d);
+
+            }
+                break;
             default:
                 printf("Helytelen opcio. Probald ujra! ");
                 break;
         }
         printf("\n\n---------------------\n\n");
     }
-//    destroyCompany(company);
-//    destroyroot(bst);
-//    destroy((Track *) newNode);
+    destroyCompany(company);
+    destroyroot(bst);
+    destroyss(newNode);
 
     return 0;
 }

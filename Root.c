@@ -67,7 +67,7 @@ void destroyroot(root *tree) {
     printf("Felszabaditva");
 }
 
-root *delete(root *tree, int data) {
+root *delete(root *tree, double data) {
     if(tree==NULL){
         printf("Nem lehetseges a torles.\n");
         return tree;

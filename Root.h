@@ -17,7 +17,7 @@ root *createroot(double data);
 void destroyroot(root * tree);
 struct root * readtime(const char* file);
 root* insert(root *tree, double data);
-root* delete(root *tree,int data);
+root* delete(root *tree,double data);
 int find(root *tree,double data);
 void inorder(root *tree);
 root *minValueNode(struct root *pRoot);
