@@ -4,6 +4,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <limits.h>
 #include "Root.h"
 root *createroot(double data)
 {
@@ -113,10 +114,10 @@ int find(root *tree, double data) {
         else find(tree->right, data);
     }
 
-    return -1;
+    return INT_MIN;
 }
 
-double findMinforN(root* root, int N)
+double findMinforN(root* root, double N)
 {
     if (root->left == NULL && root->right == NULL && root->time < N)
         return -1;

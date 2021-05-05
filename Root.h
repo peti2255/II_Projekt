@@ -21,5 +21,5 @@ root* delete(root *tree,int data);
 int find(root *tree,double data);
 void inorder(root *tree);
 root *minValueNode(struct root *pRoot);
-double findMinforN(root* root, int N);
+double findMinforN(root* root, double N);
 #endif //II_PROJEKT_ROOT_H

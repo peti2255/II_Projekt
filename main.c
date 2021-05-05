@@ -19,7 +19,7 @@ int main() {
     while (repeat) {
         printf("0.Kilepes\n"
                "1.Company adatainak kiiratasa\n"
-               "2.Idopontok\n"
+               "2.Idopontok sorrendje\n"
                "3.Kamionok\n"
                "4.Uj kamionos hozzaadas\n"
                "5.Erkezhet-e a megadott idopontba kamion\n"
@@ -38,12 +38,11 @@ int main() {
                 inorder(bst);
                 break;
             case 3:
-                //traverse(newNode);
+                traverse(newNode);
                 break;
             case 4:
             {
                 Track * track = creat();
-                struct root* bst1 = NULL;
                 double n1;
                 printf("Ceg neve: ");
                 scanf("%s",track->nameCompany);
@@ -60,22 +59,17 @@ int main() {
                 break;
             case 5:
             {
-                int n;
+                double n;
                 printf("Ido megadasa: ");
-                scanf("%i",&n);
-                //timesearcher(bst,n);
-                if(findMinforN(bst,n) <= 0)
+                scanf("%lf",&n);
+                if(findMinforN(bst,n) <= 0 && (n-findMinforN(bst,n) < 20))
                 {
                     printf("Kamion erkezes megtiltva!\n");
                 }
-                else
-                {
-                    if(n-findMinforN(bst,n) < 20)
-                        printf("Kamion erkezes megtiltva!\n");
+                else{
+
                     printf("Kamion erkezhet \n");
                 }
-
-
             }
                 break;
             case 6:
@@ -96,9 +90,9 @@ int main() {
         }
         printf("\n\n---------------------\n\n");
     }
-    destroyCompany(company);
-    destroyroot(bst);
-    destroy((Track *) newNode);
+//    destroyCompany(company);
+//    destroyroot(bst);
+//    destroy((Track *) newNode);
 
     return 0;
 }

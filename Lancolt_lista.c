@@ -101,9 +101,27 @@ Node * readTrack(const char *file) {
         inserte(&newNode,track,i);
 
     }
-
     fclose(input);
     return newNode;
 }
+    void traverse(Node* front){
+        if(front->next == NULL) {
+            printf("Company name:%s ", front->data->nameCompany);
+            printf("Crowd:%i tonna ", front->data->id);
+            printf("Shipment:%s ", front->data->product);
+            printf("Arrival time:%.2lf ", front->data->crowd);
+            printf("\n");
+            return;
+        }
+        printf("Company name:%s ", front->data->nameCompany);
+        printf("Crowd:%i tons ", front->data->id);
+        printf("Shipment:%s ", front->data->product);
+        printf("Arrival time:%.2lf ", front->data->crowd);
+        printf("\n");
+        traverse((Node *) front->next);
+
+    }
+
+
 
 
